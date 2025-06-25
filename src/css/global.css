@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/Roboto/Roboto-VariableFont_wdth,wght.woff2")
+      format("woff2"),
+    url("../assets/Roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/Roboto/Roboto-Italic-VariableFont_wdth,wght.woff2")
+      format("woff2"),
+    url("../assets/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")
+      format("truetype");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+    --yellow: #fddb00;
+    --red: #ba1632;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

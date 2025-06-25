@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    max-width: 1400px;
+    width: 100%;
+}
+
+nav button {
+    padding: 0;
+}
+
+nav > div button:nth-child(-n+3) {
+    margin-right: 50px ;
+}
+
+.active {
+    color: var(--yellow);
+}
+
+nav > img {
+    height: 130px;
+}
+
+nav button {
+    color: var(--red);
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+    transition: 150ms ease-in-out;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+nav button:hover {
+    color: var(--yellow);
+}
