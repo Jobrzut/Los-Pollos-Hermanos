@@ -10,10 +10,11 @@ export function homepage() {
 
   h1Text.textContent = "Taste the Family!";
   h3Text.textContent = "Los Pollos Hermanos";
-  pText.textContent = "We make some killer chicken according to Hank";
+  pText.textContent = "We make some killer chicken according to Hank...";
   textDiv.append(h3Text, h1Text, pText);
 
   const photoDiv = document.createElement("div");
+  photoDiv.className = "photoDiv";
   const chickenImage = document.createElement("img");
   chickenImage.src = chickenPhoto;
   photoDiv.appendChild(chickenImage);

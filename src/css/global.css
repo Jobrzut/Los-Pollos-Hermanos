@@ -106,12 +106,16 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  margin-inline: auto;
   height: 100vh;
+  max-width: 1440px;
+  padding-inline: 20px;
 }
 
 #content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-grow: 1;
+  width: 100%;
 }
