@@ -14,7 +14,7 @@ const menuItems = {
     emoji: "🌮",
     price: 18,
   },
-  frenchFries: {
+  "french fries": {
     emoji: "🍟",
     price: 12,
   },
@@ -30,6 +30,7 @@ const menuItems = {
 
 export function menu() {
   const gridDiv = document.createElement("div");
+  gridDiv.className = "gridDiv";
   Object.entries(menuItems).forEach(([title, element]) => {
     const card = document.createElement("div");
     const h2Emoji = document.createElement("h2");
@@ -38,7 +39,7 @@ export function menu() {
 
     h2Emoji.textContent = element.emoji;
     h2Title.textContent = title;
-    pPrice.textContent = "$ " + element.price;
+    pPrice.textContent = "$" + element.price;
     card.append(h2Emoji, h2Title, pPrice);
     gridDiv.appendChild(card);
   });

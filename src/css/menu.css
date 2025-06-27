@@ -1,0 +1,44 @@
+.gridDiv {
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    font-size: 1.2em;
+}
+
+.gridDiv div {
+    padding: 30px;
+    border: 2px solid var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: 300ms ease-in-out;
+}
+
+.gridDiv div:hover {
+    background-color: var(--yellow);
+}
+
+.gridDiv > div:hover > h2:nth-child(1) {
+    animation: shake 0.3s ease-in-out 2;
+}
+
+.gridDiv h2 {
+    text-transform: capitalize;
+}
+
+.gridDiv div > h2:nth-child(1) {
+    font-size: 2.5em;
+    position: absolute;
+    transform: translateY(-100%); 
+}
+
+@keyframes shake {
+    0% { transform: translateY(-100%) rotate(0deg);}
+    25% { transform: translateY(-100%) rotate(20deg);}
+    50% { transform: translateY(-100%) rotate(0eg); }
+    75% { transform: translateY(-100%) rotate(-20deg); }
+    100% { transform: translateY(-100%) rotate(0deg); }
+  }

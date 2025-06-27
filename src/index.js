@@ -3,6 +3,7 @@ import { menu } from "./menu.js";
 import "./css/global.css";
 import "./css/nav.css";
 import "./css/homepage.css";
+import "./css/menu.css";
 import "./css/footer.css";
 
 homepage();
