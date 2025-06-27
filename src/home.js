@@ -1,5 +1,6 @@
 import chickenPhoto from "./assets/imgs/chicken.png";
 const contentDiv = document.querySelector("#content");
+const navButtons = document.querySelectorAll("nav button")
 
 export function homepage() {
   const textDiv = document.createElement("div");
@@ -20,4 +21,6 @@ export function homepage() {
   photoDiv.appendChild(chickenImage);
 
   contentDiv.append(textDiv,photoDiv);
+
+  navButtons[0].className = "active";
 }

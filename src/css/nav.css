@@ -27,6 +27,7 @@ nav > div button:nth-child(-n+3) {
 
 nav > img {
     height: 130px;
+    cursor: pointer;
 }
 
 nav button {
