@@ -1,9 +1,11 @@
 import { homepage } from "./home.js";
 import { menu } from "./menu.js";
+import { about } from "./about.js";
 import "./css/global.css";
 import "./css/nav.css";
 import "./css/homepage.css";
 import "./css/menu.css";
+import "./css/about.css";
 import "./css/footer.css";
 
 homepage();
@@ -27,7 +29,8 @@ nav.addEventListener("click", (event) => {
     cleanDiv();
     menu();
   } else if (event.target.textContent === "About") {
-    
+    cleanDiv();
+    about();
   } else if (event.target.textContent === "Contact") {
     
   } else if (event.target.classList.contains("logo")) {

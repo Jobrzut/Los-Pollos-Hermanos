@@ -1,0 +1,25 @@
+.aboutDiv {
+   width: clamp(40ch, 50%, 75ch);
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   row-gap: 50px;
+   font-size: 1.2em;
+}
+
+.aboutDiv div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.aboutDiv h1 {
+    color: var(--red);
+}
+
+
+
+.aboutDiv em,
+.aboutDiv span{
+    font-weight: bold;
+}
