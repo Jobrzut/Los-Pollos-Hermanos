@@ -35,3 +35,16 @@
 		transform: translatey(0px);
 	}
 }
+
+.textDiv h3 {
+    color: var(--yellow);
+    line-height: 0.8;
+}
+
+.textDiv h1 {
+    color: var(--red);
+}
+
+.textDiv p {
+    padding-top: 20px;
+}
