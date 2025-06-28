@@ -18,10 +18,10 @@ Welcome to **Los Pollos Hermanos**, a vibrant and interactive restaurant website
 
 ## Screenshot
 
-![Los Pollos Hermanos Screenshot](.assets/imgs/home.png)
-![Los Pollos Hermanos Screenshot](.assets/imgs/menu.png)
-![Los Pollos Hermanos Screenshot](.assets/imgs/about.png)
-![Los Pollos Hermanos Screenshot](.assets/imgs/contact.png)
+![Los Pollos Hermanos Screenshot](./src/assets/imgs/home.png)
+![Los Pollos Hermanos Screenshot](./src/assets/imgs/menu.png)
+![Los Pollos Hermanos Screenshot](./src/assets/imgs/about.png)
+![Los Pollos Hermanos Screenshot](./src/assets/imgs/contact.png)
 
 
 ## How to Run Locally
