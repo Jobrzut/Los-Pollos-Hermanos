@@ -25,7 +25,9 @@ export function contact() {
 
   const formButton = document.createElement("button");
   formButton.textContent = "Submit";
-
+  formButton.addEventListener("click", (e) => {
+    e.preventDefault();
+  });
   contactForm.append(emailDiv, messageDiv, formButton);
 
   contentDiv.appendChild(contactForm);
