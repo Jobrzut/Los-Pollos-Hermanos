@@ -1,4 +1,4 @@
-import chickenPhoto from "./assets/imgs/chicken.png";
+import chickenPhoto from "../assets/imgs/chicken.png";
 const contentDiv = document.querySelector("#content");
 const navButtons = document.querySelectorAll("nav button")
 

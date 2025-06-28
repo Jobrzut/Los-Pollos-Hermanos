@@ -1,11 +1,13 @@
-import { homepage } from "./home.js";
-import { menu } from "./menu.js";
-import { about } from "./about.js";
+import { homepage } from "./js/home.js";
+import { menu } from "./js/menu.js";
+import { about } from "./js/about.js";
+import { contact } from "./js/contact.js";
 import "./css/global.css";
 import "./css/nav.css";
 import "./css/homepage.css";
 import "./css/menu.css";
 import "./css/about.css";
+import "./css/contact.css";
 import "./css/footer.css";
 
 homepage();
@@ -32,9 +34,10 @@ nav.addEventListener("click", (event) => {
     cleanDiv();
     about();
   } else if (event.target.textContent === "Contact") {
-    
+    cleanDiv();
+    contact();
   } else if (event.target.classList.contains("logo")) {
-    contentDiv.innerHTML = "";
+    cleanDiv();
     homepage();
   }
 });
